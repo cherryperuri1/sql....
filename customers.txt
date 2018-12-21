@@ -1,0 +1,15 @@
+CREATE TABLE customers (
+  customer_code number(10) NOT NULL,
+  first_name varchar(45) DEFAULT NULL,
+  last_name varchar(45) DEFAULT NULL,
+  email varchar(45) DEFAULT NULL,
+  PRIMARY KEY (customer_code)
+)
+
+    
+    INSERT INTO customers VALUES (1,'David','Adams','david@demo.com');
+	INSERT INTO customers VALUES (2,'John','Doe','john@demo.com');  
+    INSERT INTO customers VALUES	(3,'Ajay','Rao','ajay@demo.com');
+    INSERT INTO customers VALUES	(4,'Mary','Public','mary@demo.com');
+    INSERT INTO customers VALUES	(5,'Maxwell','Dixon','max@demo.com'); 
+    commit;
